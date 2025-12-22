@@ -30,6 +30,6 @@
 (load-theme 'monochrome t)
 
 (custom-set-variables
- '(package-selected-packages '(magit monochrome-theme)))
+ '(package-selected-packages '(monochrome-theme)))
 (custom-set-faces
  )
