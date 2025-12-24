@@ -26,10 +26,3 @@
 (scroll-bar-mode -1)
 (normal-erase-is-backspace-mode 1)
 (set-language-environment "UTF-8")
-
-(load-theme 'monochrome t)
-
-(custom-set-variables
- '(package-selected-packages '(monochrome-theme)))
-(custom-set-faces
- )
