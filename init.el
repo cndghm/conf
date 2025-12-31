@@ -1,7 +1,3 @@
-(require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(package-initialize)
-
 (ido-mode 1)
 (ido-everywhere 1)
 
