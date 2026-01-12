@@ -1,3 +1,7 @@
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+
 (ido-mode 1)
 (ido-everywhere 1)
 
@@ -22,3 +26,11 @@
 (scroll-bar-mode -1)
 (normal-erase-is-backspace-mode 1)
 (set-language-environment "UTF-8")
+
+(set-face-attribute 'default nil :height 130)
+(load-theme 'monochrome t)
+
+(custom-set-variables
+ '(package-selected-packages '(magit monochrome-theme)))
+(custom-set-faces
+ )
