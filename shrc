@@ -1,0 +1,11 @@
+alias history='fc -l'
+
+# history on arrow up and down
+bind ^[[A ed-search-prev-history
+bind ^[[B ed-search-next-history
+
+# Ctrl+arrow: go to the previous word
+bind "\\e[1;5C" em-next-word
+bind "\\e[1;5D" ed-prev-word
+
+PS1="\u@\h:\w \\$ "
