@@ -1,11 +1,13 @@
-alias history='fc -l'
-
-# history on arrow up and down
+# csh like history on arrow up and down
 bind ^[[A ed-search-prev-history
 bind ^[[B ed-search-next-history
 
-# Ctrl+arrow: go to the previous word
+# Ctrl+right arrow: go to the next word
+# Ctrl+left arrow: go to the previous word
 bind "\\e[1;5C" em-next-word
 bind "\\e[1;5D" ed-prev-word
 
-PS1="\u@\h:\w \\$ "
+alias history='fc -l'
+
+# set prompt: ``username@hostname:directory $ '' 
+PS1="\h:\w \\$ "
