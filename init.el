@@ -32,13 +32,3 @@
 (show-paren-mode 1)
 
 (normal-erase-is-backspace-mode 1)
-
-(load-theme 'cyberpunk)
-
-(custom-set-variables
- '(custom-safe-themes
-   '("9fb69436c074b82a62b78b8d733e6274d0bd16d156f7b094e2afe4345c040c49"
-     default))
- '(package-selected-packages '(cyberpunk-theme magit)))
-(custom-set-faces
- )
