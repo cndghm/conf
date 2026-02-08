@@ -32,3 +32,5 @@
 (show-paren-mode 1)
 
 (normal-erase-is-backspace-mode 1)
+
+(load-theme 'cyberpunk t)
