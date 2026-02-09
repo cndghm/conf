@@ -22,6 +22,8 @@
 
 (setq-default ident-tabs-mode t)
 (setq-default tab-width 8)
+(setq-default tab-always-ident t)
+(add-hook 'before-save-hook #'delete-trailing-whitespace)
 
 (setq c-default-style "bsd")
 (setq c-basic-offset 8)
